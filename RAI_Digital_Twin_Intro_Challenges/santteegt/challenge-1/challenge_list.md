@@ -12,10 +12,10 @@ Following, I list some advantages/disadvantages of of a modular design
     - Modular ETL processes, data analytics, system parameters estimation & reporting give us the freedom to perform quantification analysis on each focus area
     - Plug-in different data sources, tools & frameworks
     - Possiblity to reuse existing modules into other projects (e.g.ETL for downloading historical prices on any pairs from a DEX)
-    - 
+    - Abstract out Logic to Improve Readability
 
 * *Disadvantages*
-    - None has come to my mind :P
+    - Would not provide any benefits if you don't provide data types checking & establish standard ways to forward information between modules
 
 
 - (*HANDS-ON*) **Can you execute the RAI Digital Twin through the CLI? Does the output matches the one that we've seen on the slides?**
